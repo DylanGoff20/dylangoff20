@@ -1,0 +1,17 @@
+#headshot{
+    max-width: 100%;
+    height:auto;
+    border-radius: 8px;
+}
+@media screen and (max-width: 640px) {
+    #headshot {
+      width: 150px;     
+      margin: 0 auto;   
+      display: block;   
+    }
+  }
+
+  body{
+    background-color:cornsilk;
+  }
+
