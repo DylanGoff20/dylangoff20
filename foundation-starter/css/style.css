@@ -1,17 +1,54 @@
-#headshot{
-    max-width: 100%;
-    height:auto;
-    border-radius: 8px;
+body{
+  background-color: #f9d696;
 }
-@media screen and (max-width: 640px) {
-    #headshot {
-      width: 150px;     
-      margin: 0 auto;   
-      display: block;   
-    }
-  }
-  
-  body{
-    background-color:bisque;
-  }
+.grid-container{
+  border: 2px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+#menu-button{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: tan; 
+  color:black;
+  border: 2px solid tan;
+  border-radius: 8px;
+}
+.off-canvas{
+  background-color: #333;
+  color: black;
+  text-align: center;
+}
+.box1{
+  padding: 5rem;
+  background-color: #fae5b0;
+}
+.box2{
+  margin-top: 1rem;
+  background-color: #f5deb3;
+  border: 2px solid #c29a63;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
+.off-canvas .menu a{
+  color: white;
+}
+.off-canvas .menu a:hover{
+  background-color: #555;
+}
+h1, h2{
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#dylanheadshot{
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #c29a63;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px;
+}
